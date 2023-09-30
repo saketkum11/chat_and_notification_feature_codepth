@@ -5,7 +5,7 @@ const Home = () => {
         <section className=" max-w-md  border-2 border-zinc-300 p-8  m-auto  mt-40">
           <div>
             <form action="" className="">
-              <h1 className="text-4xl text-left ">Log In</h1>
+              <h1 className="text-4xl text-left ">Log in</h1>
               <div className="flex flex-col gap-4 mt-12">
                 <input
                   type="email"
@@ -21,7 +21,7 @@ const Home = () => {
                 />
               </div>
               <button className="w-full border-2 bg-black text-white rounded-lg text-sm px-4 py-3 mt-8">
-                Submit
+                LOG IN
               </button>
             </form>
           </div>
