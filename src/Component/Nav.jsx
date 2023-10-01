@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
       <div className="   mt-16 ">
+        <Link
+          to="/login"
+          className="bg-pink-500 text-white rounded-md px-4 py-2"
+        >
+          Home
+        </Link>
         <div className="border-b-2 flex justify-between">
           <span>Chats</span>
           <button className="bg-pink-500 text-white rounded-md px-4 py-2">

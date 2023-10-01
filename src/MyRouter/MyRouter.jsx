@@ -1,12 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import { Chat, Home } from "../server";
+import { Chat, Login, SignUp } from "../server";
 
 const MyRouter = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/chat" element={<Chat />} />
+        <Route index element={<Chat />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </>
   );

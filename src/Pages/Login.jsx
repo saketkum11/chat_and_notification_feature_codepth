@@ -1,4 +1,5 @@
-const Home = () => {
+import { Link } from "react-router-dom";
+const Login = () => {
   return (
     <>
       <main>
@@ -25,9 +26,12 @@ const Home = () => {
               </button>
             </form>
           </div>
+          <Link className=" mt-4" to="/signup">
+            Register Here ?
+          </Link>
         </section>
       </main>
     </>
   );
 };
-export { Home };
+export { Login };
